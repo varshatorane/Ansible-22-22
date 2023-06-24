@@ -2,7 +2,7 @@
 - hosts: all 
   tasks: 
   - name: install webservers
-  apt:
-  name:
-  state: present
+    apt:
+     name:
+     state: present
 
