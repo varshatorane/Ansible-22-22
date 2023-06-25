@@ -4,6 +4,6 @@
   tasks: 
   - name: install webservers
     apt:
-     name:
+     name: apache2
      state: present
 
